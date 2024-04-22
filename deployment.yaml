@@ -17,4 +17,4 @@ spec:
         - name: argo-flask-image
           image: 440896245143.dkr.ecr.us-west-2.amazonaws.com/argo-ecr-repo:a65d0fa72a32a0dd6812ae6fb24990f0536b55c8 
           ports:
-            - containerPort: 5000
+            - containerPort: 5431
