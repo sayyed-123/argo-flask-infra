@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: back-end
-          image: 440896245143.dkr.ecr.us-west-2.amazonaws.com/argo-ecr-repo:a65d0fa72a32a0dd6812ae6fb24990f0536b55c8 
+          image: 440896245143.dkr.ecr.us-west-2.amazonaws.com/argo-ecr-repo:f9245c77c5b3325c66783c9574c8b77afceb623f 
           ports:
             - containerPort: 5000
