@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: argo-flask-deployment
+  namespace: default
 spec:
   replicas: 1
   selector:
@@ -14,6 +15,6 @@ spec:
     spec:
       containers:
         - name: argo-flask-image
-          image: 440896245143.dkr.ecr.us-west-2.amazonaws.com/argo-ecr-repo:eff9c31cc953461a5d0891368719f2dd4d0f88ba 
+          image: 440896245143.dkr.ecr.us-west-2.amazonaws.com/argo-ecr-repo:ef776f6dbc4b0a48f97edc08c53771784eef5567 
           ports:
             - containerPort: 5431
